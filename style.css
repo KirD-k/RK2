@@ -12,24 +12,37 @@ html{
     font-size: 2rem;
     background-color: var(--bg-color);
     padding-inline: 4%;
+    
 }
 
-img{
+.pict{
     background-color: var(--bg-color2);
     border-radius: 6px;
+    justify-self: center;
 }
 
 a{
     text-decoration: none;
     background-color: var(--element-color);
     color: var(--link-color);
-    border-radius: 12px;
-    padding-block: 4%;
-    padding-inline: 4%;
+    border-radius: 6px;
+    padding-block: 6%;
+    padding-inline: 6%;
 }
 
-h1, h2{
-    font-size: 34px;
+.a1{
+    padding-block: 3.5%;
+    padding-inline: 5%;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-block: 5%;
+}
+
+h2{
+    font-size: 20px;
     font-weight: bold;
     margin-block: 5%;
 }
@@ -37,20 +50,28 @@ h1, h2{
 .wrap{
     display: flex;
     background-color: var(--bg-color2);
-    width: fit-content;
+    width: auto;
+    justify-content: space-evenly;
     padding-inline: 5%;
     padding-block: 5%;
     margin-block: 5%;
+
+    font-size: 20px;
 }
 
 .menu{
     background-color: transparent;
     border: 0;
     min-width: 25px;
+    align-self: center;
 }
 
 li{
     margin-block: 3%;
+    font-size: 15px;
+    font-weight: 400;
+    list-style: disc;
+    
 }
 
 p{
@@ -60,6 +81,23 @@ p{
 .header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-
+    align-items: center;
+    margin-block: 5%;
 }
+
+.text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text1{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--element-color);
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+}
+
