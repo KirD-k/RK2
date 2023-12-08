@@ -2,27 +2,36 @@
     --bg-color: rgba(245, 246, 250, 1);
     --bg-color2: white;
     --element-color: rgba(0, 154, 68, 1);
-    --text-color: black;
+    --text-color: rgba(49, 54, 71, 1);
     --link-color: white;
     vertical-align: middle;
+    font-family: 'Quicksand', sans-serif;
 }
 
 html{
     font-size: 2rem;
     background-color: var(--bg-color);
+    padding-inline: 4%;
 }
 
 img{
     background-color: var(--bg-color2);
+    border-radius: 6px;
 }
 
 a{
     text-decoration: none;
     background-color: var(--element-color);
     color: var(--link-color);
-    border-radius: 6px;
+    border-radius: 12px;
     padding-block: 4%;
     padding-inline: 4%;
+}
+
+h1, h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin-block: 5%;
 }
 
 .wrap{
@@ -31,4 +40,26 @@ a{
     width: fit-content;
     padding-inline: 5%;
     padding-block: 5%;
+    margin-block: 5%;
+}
+
+.menu{
+    background-color: transparent;
+    border: 0;
+    min-width: 25px;
+}
+
+li{
+    margin-block: 3%;
+}
+
+p{
+    margin-block: 3%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
 }
