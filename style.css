@@ -1,9 +1,34 @@
 :root{
-    --bg-color: white;
-    --bg-color: white;
-    --element-color: green;
+    --bg-color: rgba(245, 246, 250, 1);
+    --bg-color2: white;
+    --element-color: rgba(0, 154, 68, 1);
+    --text-color: black;
+    --link-color: white;
+    vertical-align: middle;
 }
 
 html{
     font-size: 2rem;
+    background-color: var(--bg-color);
+}
+
+img{
+    background-color: var(--bg-color2);
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--element-color);
+    color: var(--link-color);
+    border-radius: 6px;
+    padding-block: 4%;
+    padding-inline: 4%;
+}
+
+.wrap{
+    display: flex;
+    background-color: var(--bg-color2);
+    width: fit-content;
+    padding-inline: 5%;
+    padding-block: 5%;
 }
